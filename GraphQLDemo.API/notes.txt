@@ -1,0 +1,3 @@
+- Difference AddPooledDbContextFactory and AddDBContext:
+ For applications that require high performance and scalability, and where managing the lifecycle of DbContext instances explicitly is acceptable, AddPooledDbContextFactory is the recommended approach. For simpler applications or those where the overhead of DbContext instantiation is not a concern, AddDbContext remains a valid and straightforward option.
+
